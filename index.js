@@ -19,6 +19,7 @@ client.on("error", (error) => {
 
 app.get("/", (req, res) => {
   return res.send(`<h1>Home Page</h1>
+    /api/quote/:id let's go
     `);
 });
 
